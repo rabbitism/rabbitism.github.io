@@ -57,6 +57,9 @@ MIT
 @angular/core
 MIT
 
+@angular/forms
+MIT
+
 @angular/material
 MIT
 The MIT License
@@ -89,6 +92,8 @@ THE SOFTWARE.
 @angular/material/divider
 
 @angular/material/expansion
+
+@angular/material/icon
 
 @angular/material/toolbar
 
