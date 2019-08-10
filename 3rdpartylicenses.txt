@@ -84,6 +84,12 @@ THE SOFTWARE.
 
 @angular/material/button
 
+@angular/material/card
+
+@angular/material/divider
+
+@angular/material/expansion
+
 @angular/material/toolbar
 
 @angular/platform-browser
