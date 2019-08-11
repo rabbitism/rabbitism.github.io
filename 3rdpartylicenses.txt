@@ -89,11 +89,17 @@ THE SOFTWARE.
 
 @angular/material/card
 
+@angular/material/chips
+
+@angular/material/core
+
 @angular/material/divider
 
 @angular/material/expansion
 
 @angular/material/icon
+
+@angular/material/list
 
 @angular/material/toolbar
 
