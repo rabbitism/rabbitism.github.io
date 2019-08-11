@@ -101,6 +101,8 @@ THE SOFTWARE.
 
 @angular/material/list
 
+@angular/material/sidenav
+
 @angular/material/toolbar
 
 @angular/platform-browser
