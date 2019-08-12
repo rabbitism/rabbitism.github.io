@@ -1,0 +1,19 @@
+[
+    {
+        "title": "Gadio Video",
+        "shortDescription":"“做工特别扎实”",
+        "description": [
+            "Gadio Video is a python package for translating GCores podcast \"Gadio\" from audio to video.",
+            "It automatically create frames according to timeline and shownotes, with beautified blurred backgrounds."
+        ],
+        "image": "assets/project_thumbs/gadiovideo.png",
+        "link": "https://github.com/rabbitism/gadiovideo",
+        "tags": [
+            "Open Source",
+            "Python",
+            "OpenCV",
+            "MoviePy",
+            "CI\\CD"
+        ]
+    }
+]
