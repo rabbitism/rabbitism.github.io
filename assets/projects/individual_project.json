@@ -1,19 +1,54 @@
 [
     {
         "title": "Gadio Video",
-        "shortDescription":"“做工特别扎实”",
+        "shortDescription":"“超能力者过于牛逼了！”",
         "description": [
             "Gadio Video is a python package for translating GCores podcast \"Gadio\" from audio to video.",
             "It automatically create frames according to timeline and shownotes, with beautified blurred backgrounds."
         ],
         "image": "assets/project_thumbs/gadiovideo.png",
-        "link": "https://github.com/rabbitism/gadiovideo",
+        "link": "https://www.gcores.com/articles/108935",
+        "repo":"https://github.com/rabbitism/gadiovideo",
         "tags": [
             "Open Source",
             "Python",
             "OpenCV",
             "MoviePy",
             "CI\\CD"
+        ]
+    },
+    {
+        "title": "UIUC Data Visualization Final Project",
+        "shortDescription":"",
+        "description": [
+            "This is my final project of UIUC CS 498 Data Visualization. It is a visualization of Olympic atheletes evolution. Developed with D3.js"
+        ],
+        "image": "assets/project_thumbs/data_viz.png",
+        "link": "https://rabbitism.github.io/DataVizProject/",
+        "repo":"https://github.com/rabbitism/DataVizProject",
+        "tags": [
+            "Data Viz",
+            "D3.js",
+            "JavaScript",
+            "UIUC"
+        ]
+    },
+    {
+        "title": "UIUC Data Mining Final Project",
+        "shortDescription":"\"You may also like?\"",
+        "description": [
+            "This is my final project of UIUC CS 598 Data Mining.",
+            "Use 50000 Yelp reviews to find similarities between different cuisines. Prompt recommendations to users for similar cuisines based on what they are browsing."
+        ],
+        "image": "assets/project_thumbs/data_mining.png",
+        "link": "https://rabbitism.github.io/DMFinal",
+        "repo":"https://github.com/rabbitism/DMFinal",
+        "tags": [
+            "Data Mining",
+            "NLP",
+            "Genism",
+            "Python",
+            "Flask-restful"
         ]
     }
 ]

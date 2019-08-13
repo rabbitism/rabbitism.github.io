@@ -7,25 +7,11 @@
         ],
         "image": "",
         "link": "https://github.com/rabbitism/LeetCodePractice",
+        "repo":"https://github.com/rabbitism/gadiovideo",
         "tags": [
             "Leet Code",
             "C#",
             ".Net Core"
-        ]
-    },
-    {
-        "title": "UIUC Data Visualization Final Project",
-        "shortDescription":"",
-        "description": [
-            "This is my final project of UIUC CS 498 Data Visualization. It is a visualization of Olympic atheletes evolution. Developed with D3.js"
-        ],
-        "image": "assets/project_thumbs/data_viz.png",
-        "link": "https://rabbitism.github.io/DataVizProject/",
-        "tags": [
-            "Data Viz",
-            "D3.js",
-            "JavaScript",
-            "UIUC"
         ]
     }
 ]
