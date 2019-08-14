@@ -2,8 +2,8 @@
     {
         "title": "DLS for WPF",
         "shortDescription":"",
-        "start":"Nov, 2017",
-        "end":"Aug, 2018",
+        "start":"2017-11-01",
+        "end":"2018-08-01",
         "description": [
             "Implement DLS(Design Language System for Schlumberger) in WPF.",
             "Original Styles are implemented in Angular flavor. Migrate more than 20 controls and implemented exactly same style and animations."
@@ -22,8 +22,8 @@
     {
         "title": "Eleme & Meituan Restaurants Mapping",
         "shortDescription":"",
-        "start":"Nov, 2018",
-        "end":"Nov, 2018",
+        "start":"2018-11-01",
+        "end":"2018-11-01",
         "description": [
             "Map Eleme Restaurants and Meituan Restaurants that belongs to the same owner.",
             "Find Similarities between Eleme and Meituan Restaurants according to their Chinese address strings. Achieved more than 90% accuracy."
@@ -40,8 +40,8 @@
     {
         "title": "GEMS Key Plus",
         "shortDescription":"",
-        "start":"Feb, 2016",
-        "end":"May, 2017",
+        "start":"2016-02-01",
+        "end":"2017-05-01",
         "description": [
             "A tiny but powerful desktop application used in Schlumberger, for quickly quering in GEMS/eQuality/eCPU/Google and many other websites. Well designed UI and hotkey layout based on investigations. Responsive and configurable according to user's preference. More than 10000 active users within Schlumberger."
         ],
@@ -59,8 +59,8 @@
     {
         "title": "SVift - Safety Valve Rapid Design Toolkit",
         "shortDescription":"",
-        "start":"Nov, 2017",
-        "end":"Aug, 2018",
+        "start":"2017-11-01",
+        "end":"2018-08-01",
         "description": [
             "A WPF Application for rapidly achieve Wireline Retrievable Safety Valve design.",
             "Include following modules: Metric Thread Calculation and ACME Thread Calculation fully compliant with ASME and ISO standards; BCTC Calculation based on Schlumberger Confidential Algorithms; DLS for WPF applied in this project. MVVM Design Pattern."
@@ -78,8 +78,8 @@
     {
         "title": "Report Data Pipeline Refactor & Migration",
         "shortDescription":"",
-        "start":"Aug, 2018",
-        "end":"Nov, 2018",
+        "start":"2018-08-01",
+        "end":"2018-11-01",
         "description": [
             "Refactor operation report data pipeline to increase performance and achieve incremental updating. The entire data pipeline is on MySQL. Optimize ETL and OLAP process to accelerate calculaiton.",
             "According to the adjustment of original data source, migrate entire data pipeline from MySQL to Hive/Sqoop. Achieve ETL and OLAP on Hive."

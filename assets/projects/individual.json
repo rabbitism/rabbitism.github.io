@@ -2,7 +2,7 @@
     {
         "title": "Gadio Video",
         "shortDescription":"“超能力者过于牛逼了！”",
-        "start":"Apr, 2019",
+        "start":"2019-04-01",
         "end":"Now",
         "description": [
             "Gadio Video is a python package for translating GCores podcast \"Gadio\" from audio to video.",
@@ -22,8 +22,8 @@
     {
         "title": "UIUC Data Visualization Final Project",
         "shortDescription":"",
-        "start":"Aug, 2018",
-        "end":"Aug, 2018",
+        "start":"2018-08-01",
+        "end":"2018-08-01",
         "description": [
             "This is my final project of UIUC CS 498 Data Visualization. It is a visualization of Olympic atheletes evolution. Developed with D3.js"
         ],
@@ -40,8 +40,8 @@
     {
         "title": "UIUC Data Mining Final Project",
         "shortDescription":"\"You may also like?\"",
-        "start":"Aug, 2018",
-        "end":"Aug, 2019",
+        "start":"2019-08-01",
+        "end":"2019-08-01",
         "description": [
             "This is my final project of UIUC CS 598 Data Mining.",
             "Use 50000 Yelp reviews to find similarities between different cuisines. Prompt recommendations to users for similar cuisines based on what they are browsing."
