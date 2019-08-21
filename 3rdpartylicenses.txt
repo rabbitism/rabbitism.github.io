@@ -138,6 +138,9 @@ MIT
 @angular/router
 MIT
 
+angular-fusioncharts
+MIT
+
 core-js
 MIT
 Copyright (c) 2014-2019 Denis Pushkarev
@@ -160,6 +163,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
+
+fusioncharts
+http://www.fusioncharts.com/buy/
+https://www.fusioncharts.com/buy/
 
 hammerjs
 MIT
