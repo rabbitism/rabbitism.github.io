@@ -94,5 +94,24 @@
             "Sqoop",
             "Kafka"
         ]
+    },
+    {
+        "title": "Satellite Telecommand and Telemeasure data storage",
+        "shortDescription":"",
+        "start":"2018-07-15",
+        "end":"Now",
+        "description": [
+            "Developed a service to receive satellite telecommand and telemeasure data and store in database."
+        ],
+        "image": "",
+        "link": "",
+        "repo":"",
+        "tags": [
+            "Multi-thread",
+            "ASP.NET Core",
+            "PostgreSQL",
+            "JSON.NET"
+        ]
     }
+
 ]
