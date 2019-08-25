@@ -1,0 +1,15 @@
+[
+    {
+        "name":"Time",
+        "type":"date",
+        "format":"%Y-%m-%d"
+    },
+    {
+        "name":"Difficulty",
+        "type":"string"
+    },
+    {
+        "name":"Count",
+        "type":"number"
+    }
+]

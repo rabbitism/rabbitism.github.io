@@ -56,5 +56,24 @@
             "Python",
             "Flask-restful"
         ]
+    },
+    {
+        "title": "LeetCode Tracker",
+        "shortDescription":" ",
+        "start":"2019-08-15",
+        "end":"Now",
+        "description": [
+            "Extracting my LeetCode daily stats, display in my personal homepage dashboard.",
+            "Use .NET Core console app to extract information and generate data for frontend, use FusionChart for data visualization. Use PostgreSQL and EntityFramework Core for data manipulation."
+        ],
+        "image": "assets/project_thumbs/leetcode_tracker.png",
+        "link": "https://rabbitism.github.io/dashboard",
+        "repo":"",
+        "tags": [
+            "Crawler",
+            "Angular",
+            "EFCore",
+            "PostgreSQL"
+        ]
     }
 ]
