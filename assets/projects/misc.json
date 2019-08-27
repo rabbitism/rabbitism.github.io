@@ -12,8 +12,28 @@
         "repo":"https://github.com/rabbitism/LeetCodePractice",
         "tags": [
             "Leet Code",
+            "OJ",
             "C#",
             ".Net Core"
+        ]
+    },
+    {
+        "title": "HihoCoder Practice",
+        "shortDescription":"",
+        "start":"Now",
+        "end":"Now",
+        "description": [
+            "This is my personal repo of Hihocoder.com practice collections."
+        ],
+        "image": "",
+        "link": "https://github.com/rabbitism/hiho_practice",
+        "repo":"https://github.com/rabbitism/hiho_practice",
+        "tags": [
+            "Hihocoder",
+            "OJ",
+            "C#",
+            ".Net Core",
+            "python"
         ]
     },
     {
