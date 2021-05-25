@@ -18,5 +18,5 @@ jobs:
       - name: Publish app
         run: |
           cd homepage
-
+          yarn install
           yarn build
