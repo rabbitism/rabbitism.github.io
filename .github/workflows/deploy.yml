@@ -2,6 +2,7 @@ name: DeployReactApp
 
 env: 
   PUBLISH_DIR: homepage/build
+  CI: false
 
 on:
   push:
