@@ -12,7 +12,7 @@ const labelStyles: Partial<IStyleSet<ILabelStyles>> = {
 
 
 export const App: React.FunctionComponent = () => {
-  return (
+  return ( 
     <Pivot aria-label="Basic Pivot Example">
       <PivotItem
         headerText="My Files"
