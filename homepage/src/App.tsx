@@ -1,49 +1,36 @@
 import React from 'react';
-import { Stack, Text, Link, FontWeights, IStackTokens } from '@fluentui/react';
+import {IStyleSet, ILabelStyles, Label, Stack, Text, Link, FontWeights, IStackTokens, Pivot, PivotItem } from '@fluentui/react';
 import logo from './logo.svg';
 import './App.css';
+import { Card } from '@fluentui/react-cards';
 
 const boldStyle = { root: { fontWeight: FontWeights.semibold } };
 const stackTokens: IStackTokens = { childrenGap: 15 };
+const labelStyles: Partial<IStyleSet<ILabelStyles>> = {
+  root: { marginTop: 10 },
+};
+
 
 export const App: React.FunctionComponent = () => {
   return (
-    <Stack
-      horizontalAlign="center"
-      verticalAlign="center"
-      verticalFill
-      styles={{
-        root: {
-          width: '960px',
-          margin: '0 auto',
-          textAlign: 'center',
-          color: '#605e5c',
-        },
-      }}
-      tokens={stackTokens}
-    >
-      <img className="App-logo" src={logo} alt="logo" />
-      <Text variant="xxLarge" styles={boldStyle}>
-        Welcome to Your Fluent UI App
-      </Text>
-      <Text variant="large">For a guide on how to customize this project, check out the Fluent UI documentation.</Text>
-      <Text variant="large" styles={boldStyle}>
-        Essential Links
-      </Text>
-      <Stack horizontal tokens={stackTokens} horizontalAlign="center">
-        <Link href="https://developer.microsoft.com/en-us/fluentui#/get-started/web">Docs</Link>
-        <Link href="https://stackoverflow.com/questions/tagged/office-ui-fabric">Stack Overflow</Link>
-        <Link href="https://github.com/microsoft/fluentui/">Github</Link>
-        <Link href="https://twitter.com/fluentui">Twitter</Link>
-      </Stack>
-      <Text variant="large" styles={boldStyle}>
-        Design System
-      </Text>
-      <Stack horizontal tokens={stackTokens} horizontalAlign="center">
-        <Link href="https://developer.microsoft.com/en-us/fluentui#/styles/web/icons">Icons</Link>
-        <Link href="https://developer.microsoft.com/en-us/fluentui#/styles/web">Styles</Link>
-        <Link href="https://aka.ms/themedesigner">Theme Designer</Link>
-      </Stack>
-    </Stack>
+    <Pivot aria-label="Basic Pivot Example">
+      <PivotItem
+        headerText="My Files"
+        headerButtonProps={{
+          'data-order': 1,
+          'data-title': 'My Files Title',
+        }}
+      >
+        <Card>
+          <Label styles={labelStyles}>Hello</Label>
+        </Card>
+      </PivotItem>
+      <PivotItem headerText="Recent">
+        <Label styles={labelStyles}>Pivot #2</Label>
+      </PivotItem>
+      <PivotItem headerText="Shared with me">
+        <Label styles={labelStyles}>Pivot #3</Label>
+      </PivotItem>
+    </Pivot>
   );
 };
