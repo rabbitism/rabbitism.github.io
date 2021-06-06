@@ -1,6 +1,6 @@
 import { Label } from 'office-ui-fabric-react';
 import React from 'react';
-import { Route, BrowserRouter as Router, Switch, withRouter } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { Homepage } from '../Homepage';
 
 class MainContentPage extends React.Component<any, any> {

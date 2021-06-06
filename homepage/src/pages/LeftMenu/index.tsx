@@ -1,11 +1,11 @@
 import React from 'react';
-import { Nav, INavLink, INavStyles, INavLinkGroup, initializeIcons } from '@fluentui/react';
+import { Nav, INavStyles, INavLinkGroup, initializeIcons } from '@fluentui/react';
 import { withRouter } from 'react-router-dom';
 
 
 const navStyles: Partial<INavStyles> = {
   root: {
-    width: 208,
+    height: '100vh',
     boxSizing: 'border-box',
     border: '1px solid #eee',
   },
@@ -53,7 +53,7 @@ class LeftMenu extends React.Component<any, any> {
 
   render() {
 
-    const { match, location, history } = this.props;
+    const { history } = this.props;
 
     initializeIcons();
 
