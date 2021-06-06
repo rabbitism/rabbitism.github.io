@@ -8,8 +8,9 @@ class MainContentPage extends React.Component<any, any> {
     return (
       <div>
           <Switch>
-            <Route exact path='/'><Homepage></Homepage></Route>
+            <Route exact path='/' component={Homepage}></Route>
             <Route path='/projects'><Label>Projects</Label></Route>
+            <Route component={Homepage} />
           </Switch>
       </div>
     )
