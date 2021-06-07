@@ -6,10 +6,9 @@ export async function getProjects(): Promise<Array<ProjectModel>>{
   return new Promise((resolve, reject)=>{
     if(data as Array<ProjectModel>){
       resolve(data);
-      console.log(data)
     }
     else{
-      
+      console.log(data);
     }
   })
 }
