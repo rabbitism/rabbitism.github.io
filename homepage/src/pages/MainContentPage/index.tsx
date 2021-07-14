@@ -1,4 +1,3 @@
-import { Label } from 'office-ui-fabric-react';
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Homepage } from '../Homepage';
