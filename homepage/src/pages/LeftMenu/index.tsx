@@ -25,9 +25,10 @@ class LeftMenu extends React.Component<any, any> {
         onClick: ()=> history.push('/projects')
       },
       {
-        key: 'events',
-        content: 'Upcoming Events',
-      },
+        key: 'resume',
+        content: 'About Me',
+        onClick: ()=> history.push('/about')
+      }
     ]
 
 
