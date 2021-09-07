@@ -1,0 +1,7 @@
+.banner-card{
+    width: 100vh;
+    height: 300px;
+    border: yellow;
+    border-radius: 6px;
+    background: #ccc;
+}

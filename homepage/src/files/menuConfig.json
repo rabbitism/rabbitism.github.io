@@ -12,10 +12,10 @@
         "content": "Projects"
     },
     {
-        "key": "talks",
-        "path": "/talks",
+        "key": "portfolio",
+        "path": "/portfolio",
         "index": 2,
-        "content": "Talks"
+        "content": "Portfolio"
     },
     {
         "key": "talks",

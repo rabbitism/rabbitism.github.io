@@ -1,0 +1,9 @@
+.homepage-header-container{
+    justify-content: center;
+    display: flex;
+}
+
+.homepage-divider{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

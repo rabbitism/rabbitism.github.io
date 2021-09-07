@@ -20,7 +20,10 @@ export const App: React.FunctionComponent = () => {
       </div>
 
       <div className='content'>
-        <MainContentPage ></MainContentPage>
+        <div>
+          <MainContentPage ></MainContentPage>
+        </div>
+
       </div>
 
       <div className='footer'>

@@ -22,7 +22,7 @@ export const Banner: React.FunctionComponent = () => {
                 <div className='header-banner'>
                     <Text className='banner-header' content="Dong Bin"></Text>
                     <br/>
-                    <Text className='banner-content' content="Wander in Galaxy"></Text>
+                    <Text className='banner-content' content="Rabbitism | Wander in Galaxy"></Text>
                 </div>
             </FlexItem>
         </Flex>
