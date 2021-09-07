@@ -2,17 +2,33 @@ import React from 'react';
 import './App.css';
 import LeftMenu from './pages/LeftMenu';
 import MainContentPage from './pages/MainContentPage';
+import { Banner } from './pages/Banner';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { Flex, FlexItem, Text } from '@fluentui/react-northstar';
 
 
 export const App: React.FunctionComponent = () => {
   return (
     <Router>
-
-      <LeftMenu />
-      <div>
-        <MainContentPage></MainContentPage>
+      <div className='header'>
+        <Banner></Banner>
       </div>
+      <div className='nav-container'>
+        <nav>
+          <LeftMenu />
+        </nav>
+      </div>
+
+      <div className='content'>
+        <MainContentPage ></MainContentPage>
+      </div>
+
+      <div className='footer'>
+        <Text>©Dong Bin aka Rabbitism. All Rights Reserved</Text>
+      </div>
+
+
+
     </Router>
 
   );

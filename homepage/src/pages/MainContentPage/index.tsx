@@ -12,6 +12,7 @@ class MainContentPage extends React.Component<any, any> {
             <Route exact path='/' component={Homepage}></Route>
             <Route path='/projects' component={Projects}></Route>
             <Route path='/about' component={Resume} />
+            <Route component={Homepage}></Route>
           </Switch>
       </div>
     )
