@@ -7,7 +7,7 @@ import Resume from '../Resume';
 class MainContentPage extends React.Component<any, any> {
   render() {
     return (
-      <div>
+      <div >
           <Switch>
             <Route exact path='/' component={Homepage}></Route>
             <Route path='/projects' component={Projects}></Route>

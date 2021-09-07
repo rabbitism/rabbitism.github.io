@@ -20,7 +20,7 @@ export const App: React.FunctionComponent = () => {
       </div>
 
       <div className='content'>
-        <div>
+        <div style={{flex: '1 1 0%'}} >
           <MainContentPage ></MainContentPage>
         </div>
 
