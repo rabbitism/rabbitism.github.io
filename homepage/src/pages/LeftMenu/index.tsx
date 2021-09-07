@@ -33,7 +33,7 @@ class LeftMenu extends React.Component<any, any> {
 
 
     return (
-      <Menu items={items} vertical pointing style={{width:300}}></Menu>
+      <Menu items={items} vertical pointing style={{width:150}}></Menu>
     );
   }
 }

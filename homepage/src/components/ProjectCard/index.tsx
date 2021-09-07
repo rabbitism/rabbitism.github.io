@@ -3,6 +3,7 @@ import { Card, CardHeader, CardBody, Button, Flex, Image, Text } from '@fluentui
 import { StarIcon, DownloadIcon, MoreIcon } from '@fluentui/react-icons-northstar'
 
 interface ProjectCardProps {
+  key: string;
   projectName: string;
   projectDescriptions: Array<string>;
 }
@@ -29,8 +30,8 @@ const ProjectCard: React.FunctionComponent<any> = (props: ProjectCardProps) => {
         <Text content={props.projectName} weight="bold" />
       </Card.Header>
       <Card.Body>
-        {props.projectDescriptions.map(a=>{
-          return <Text content={a}></Text>  
+        {props.projectDescriptions.map((a, i)=>{
+          return <Text key={i} content={a}></Text>  
         })}
       </Card.Body>
       <Card.Footer fitted>
