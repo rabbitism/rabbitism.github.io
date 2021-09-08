@@ -14,29 +14,23 @@ class ProjectBanner extends React.Component<any, any> {
 
     render() {
         return (
-            <div className='banner-card' style={{backgroundColor:"#ddd" }} >
-                <Flex style={{ height: '100%' }}>
-                    <FlexItem grow>
-                        <div style={{ marginTop: '20px' }}>
-                            <Text className='code' style={{ fontSize: '40px' }} content="{PROJECTS}"></Text>
-                            <br />
-                            <br />
-                            <Text content=".NET / ASP.NET Core"></Text>
-                            <br />
-                            <Text content="WPF / React / Angular"></Text>
-                            <br />
-                            <Text content="Python"></Text>
-                            <br />
-                            <br />
-                            <Button icon={<ArrowRightIcon />} text content="Find More" onClick={this.onClick} />
-                        </div>
-                    </FlexItem>
-                    <FlexItem>
-                        <div style={{ padding: 10 }}>
-                            <Image style={{maxHeight: '100%'}} src={image} />
-                        </div>
-                    </FlexItem>
-                </Flex>
+            <div className='banner-card' style={{ backgroundColor: "#ddd" }} >
+                <div className='banner-card-title' style={{ marginTop: '10px' }}>
+                    <Text className='code' style={{ fontSize: '40px' }} content="{PROJECTS}"></Text>
+                    <br />
+                    <br />
+                    <Text content=".NET / ASP.NET Core"></Text>
+                    <br />
+                    <Text content="WPF / React / Angular"></Text>
+                    <br />
+                    <Text content="Python"></Text>
+                    <br />
+                    <br />
+                    <Button icon={<ArrowRightIcon />} text content="Find More" onClick={this.onClick} />
+                </div>
+                <div className='banner-card-image' style={{ padding: 10 }}>
+                    <Image style={{ maxHeight: '240px' }} src={image} />
+                </div>
 
             </div>
         )

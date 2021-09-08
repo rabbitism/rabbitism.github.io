@@ -14,24 +14,19 @@ class ProfolioBanner extends React.Component<any, any> {
 
     render() {
         return (
-            <div className='banner-card' style={{ backgroundColor: "#D00A4C" }}  >
-                <Flex style={{ height: '100%' }}>
-                    <FlexItem grow>
-                        <div style={{ marginTop: '20px' }}>
-                            <Text className='code' style={{ fontSize: '40px', color: 'white' }} color='white' content="{PROTFOLIO}"></Text>
-                            <br />
-                            <br />
-                            <Button icon={<ArrowRightIcon color='white' />} style={{ color: 'white' }} text content="Find More" onClick={this.onClick} />
-                        </div>
-                    </FlexItem>
-                    <FlexItem>
-                        <div style={{ padding: 10 }}>
-                            <Image style={{ maxHeight: '100%' }} src={image} />
-                        </div>
-                    </FlexItem>
-                </Flex>
+            <div className='banner-card' style={{ backgroundColor: "#D00A4C" }} >
+                <div className='banner-card-title' style={{ marginTop: '10px' }}>
+                    <Text className='code' style={{ fontSize: '40px', color: 'white' }} color='white' content="{PROTFOLIO}"></Text>
+                    <br />
+                    <br />
+                    <Button icon={<ArrowRightIcon color='white' />} style={{ color: 'white' }} text content="Find More" onClick={this.onClick} />
+                </div>
+                <div className='banner-card-image' style={{ padding: 10 }}>
+                    <Image style={{ maxHeight: '240px' }} src={image} />
+                </div>
 
             </div>
+
         )
     }
 }

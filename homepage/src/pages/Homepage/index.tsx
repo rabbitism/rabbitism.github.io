@@ -19,9 +19,10 @@ export const Homepage: React.FunctionComponent = () => {
       <br />
       <Divider className='homepage-divider' />
       <ProjectBanner></ProjectBanner>
-      <div style={{ marginTop: '20px' }}>
+      <div style={{marginTop: 20}}>
         <ProfolioBanner></ProfolioBanner>
       </div>
+
     </div>
   )
 }

@@ -91,8 +91,8 @@ nav {
 
 @media screen and (min-width: 800px) {
   .content{
-    width: 80%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 20%;
   }
 }
 
