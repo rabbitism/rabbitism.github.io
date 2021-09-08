@@ -9,7 +9,7 @@ class ProfolioBanner extends React.Component<any, any> {
 
     onClick = () => {
         const { history } = this.props;
-        history.push('/protfolio');
+        history.push('/portfolio');
     }
 
     render() {
