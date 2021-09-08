@@ -3,6 +3,7 @@
     height: 300px;
     border: yellow;
     border-radius: 6px;
-    background: #ccc;
     flex: 1;
+    color: black;
+    padding-left: 30px;
 }

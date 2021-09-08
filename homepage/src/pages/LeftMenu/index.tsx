@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { ComponentEventHandler, Menu, MenuItemProps, MenuProps, MenuShorthandKinds, ShorthandCollection } from '@fluentui/react-northstar';
+import { Menu, MenuItemProps, MenuShorthandKinds, ShorthandCollection } from '@fluentui/react-northstar';
 import MenuConfig from '../../models/MenuConfig';
 import menuConfigData from '../../files/menuConfig.json';
 
@@ -38,28 +38,37 @@ class LeftMenu extends React.Component<any, MenuState> {
     this.setState({
       menuItems: items
     })
+    var segments = this.getSegments()
+    if (segments.length >= 2) {
+      this.setActiveIndex(segments[1]);
+    }
+
+    history.listen((location: any, action: any)=>{
+      var segments = this.getSegments()
+      if (segments.length >= 2) {
+        this.setActiveIndex(segments[1]);
+      }
+    })
+  }
+
+  public getSegments = () =>{
     var path: string = document.location.pathname;
     var segments = path.split('/');
-    if (segments.length >= 2) {
-      var index : number|undefined = configs.find(a=>a.path==='/'+segments[1])?.index
-      if(index == null){
-        this.setState({activeIndex: 0});
-      }
-      else{
-        this.setState({activeIndex: index});
-      }
+    return segments
+  }
+
+  public setActiveIndex = (path: string) => {
+    var configs = menuConfigData as Array<MenuConfig>;
+    var index : number|undefined = configs.find(a=>a.path==='/' + path)?.index
+    if(index == null){
+      this.setState({activeIndex: 0});
+    }
+    else{
+      this.setState({activeIndex: index});
     }
   }
 
-  onActiveIndexChanged = (a: any) => {
-    console.log(a)
-
-  }
-
-
   render() {
-
-
     return (
       <div style={{ alignItems: 'center' }}>
         <Menu items={this.state.menuItems} underlined primary activeIndex={this.state.activeIndex} ></Menu>

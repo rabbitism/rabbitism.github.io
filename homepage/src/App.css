@@ -64,10 +64,15 @@ nav {
   width: 90%;
   margin-left: 5%;
   padding-top: 60px;
-  height: 200vh;
+  min-height: 100vh;
   justify-content: center;
   display: flex;
   flex: 1;
+}
+
+.center-container{
+  justify-content: center;
+  display: flex;
 }
 
 .footer{
@@ -76,6 +81,12 @@ nav {
   bottom: 0px;
   display: flex;
   justify-content: center;
+  background: rgba(221, 221, 221, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.code{
+  font-family: 'Courier New', Courier, monospace;
 }
 
 @media screen and (min-width: 800px) {
