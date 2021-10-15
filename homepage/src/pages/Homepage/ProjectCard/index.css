@@ -17,6 +17,7 @@
 @media screen and (max-width: 800px) {
     .banner-card{
         flex-direction: column;
+        padding-left: 0px;
     }
     .banner-card-title{
         text-align: center;
