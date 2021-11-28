@@ -13,7 +13,7 @@
     },
     {
         "key": "portfolio",
-        "path": "/portfolio",
+        "path": "/portfolios",
         "index": 2,
         "content": "Portfolio"
     },

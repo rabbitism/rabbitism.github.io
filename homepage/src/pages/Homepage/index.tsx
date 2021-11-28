@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Header, Text, Divider } from '@fluentui/react-northstar';
 import './index.css';
 import ProjectBanner from './ProjectCard';
-import ProfolioBanner from './ProtfolioCard';
+import PorfolioBanner from './PortfolioCard';
 
 
 export const Homepage: React.FunctionComponent = () => {
@@ -20,7 +20,7 @@ export const Homepage: React.FunctionComponent = () => {
       <Divider className='homepage-divider' />
       <ProjectBanner></ProjectBanner>
       <div style={{marginTop: 20}}>
-        <ProfolioBanner></ProfolioBanner>
+        <PorfolioBanner></PorfolioBanner>
       </div>
 
     </div>
